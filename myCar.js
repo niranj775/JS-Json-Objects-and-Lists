@@ -20,7 +20,16 @@ var myCar = {
         }
     ]
    }
-
+   for(let i=0;i<myCar.accidents.length;i++){
+       myCar.accidents[i].atFaultForAccident = false;
+   }
+   function printDates(data){
+       let acciDate=[];
+       for(let i=0;i<myCar.accidents.length;i++)
+        acciDate.push(myCar.accidents[i].date);
+        return acciDate;
+   }
+   console.log(printDates(myCar));
    console.log(myCar);
 /*
     1. Loop over the accidents array. Change atFaultForAccident from true to false.
