@@ -1,8 +1,6 @@
-var expected = {foo: 5, bar: 6};
-var actual = {foo: 5, bar: 6};
-function assertObjectsEqual(actual, expected, testName){
-
-}
+var expected = { foo: 5, bar: 6 };
+var actual = { foo: 5, bar: 6 };
+function assertObjectsEqual(actual, expected, testName) {}
 
 /*
 Write an “assertObjectsEqual” function from scratch.

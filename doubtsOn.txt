@@ -1,3 +1,4 @@
-1. fromListToObject
-2. transformGeekData
-3. returnMinors
+1. securityQuestions
+2. assertObjectsEqual
+ 
+
